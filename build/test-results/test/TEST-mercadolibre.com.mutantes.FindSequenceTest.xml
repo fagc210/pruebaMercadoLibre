@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="mercadolibre.com.mutantes.FindSequenceTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2023-03-10T06:36:56" hostname="LAPTOP-ASRJKJRM" time="0.035">
+  <properties/>
+  <testcase name="findVerticalZeroTest()" classname="mercadolibre.com.mutantes.FindSequenceTest" time="0.022"/>
+  <testcase name="findObliqueTest()" classname="mercadolibre.com.mutantes.FindSequenceTest" time="0.001"/>
+  <testcase name="findVerticalOneTest()" classname="mercadolibre.com.mutantes.FindSequenceTest" time="0.001"/>
+  <testcase name="findVerticalTowTest()" classname="mercadolibre.com.mutantes.FindSequenceTest" time="0.0"/>
+  <testcase name="findHorizontalOneTest()" classname="mercadolibre.com.mutantes.FindSequenceTest" time="0.001"/>
+  <testcase name="findHorizontalTowTest()" classname="mercadolibre.com.mutantes.FindSequenceTest" time="0.001"/>
+  <testcase name="findHorizontalZeroTest()" classname="mercadolibre.com.mutantes.FindSequenceTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
