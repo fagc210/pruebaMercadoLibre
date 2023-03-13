@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="mercadolibre.com.mutantes.DnaValidateUseCaseTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2023-03-10T21:21:04" hostname="LAPTOP-ASRJKJRM" time="0.044">
+  <properties/>
+  <testcase name="validateInputDataTrueTest()" classname="mercadolibre.com.mutantes.DnaValidateUseCaseTest" time="0.02"/>
+  <testcase name="isNotMutantTest()" classname="mercadolibre.com.mutantes.DnaValidateUseCaseTest" time="0.009"/>
+  <testcase name="validateMimColumsFalseTest()" classname="mercadolibre.com.mutantes.DnaValidateUseCaseTest" time="0.002"/>
+  <testcase name="isMutantTest()" classname="mercadolibre.com.mutantes.DnaValidateUseCaseTest" time="0.002"/>
+  <testcase name="validateInputDataFalseTest()" classname="mercadolibre.com.mutantes.DnaValidateUseCaseTest" time="0.001"/>
+  <testcase name="validateRowsFalseTest()" classname="mercadolibre.com.mutantes.DnaValidateUseCaseTest" time="0.001"/>
+  <system-out><![CDATA[isNoMutantTest
+========   analizando DNA ==============
+vertical=1
+horizontal=0
+oblique=0
+la data de DNA no cumple con las caracteristicas
+========   analizando DNA ==============
+vertical=1
+horizontal=1
+oblique=1
+la data de DNA no cumple con las caracteristicas
+la data de DNA no cumple con las caracteristicas
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

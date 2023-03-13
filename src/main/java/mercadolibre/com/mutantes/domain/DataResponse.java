@@ -9,5 +9,5 @@ import lombok.*;
 @Getter
 @Setter
 public class DataResponse {
-    String response;
+   private  String response;
 }

@@ -10,5 +10,5 @@ import lombok.*;
 @Setter
 public class Dna {
 
-    String[] dna;
+    private String[] dna;
 }
