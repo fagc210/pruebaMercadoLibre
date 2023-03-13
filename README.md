@@ -18,9 +18,9 @@ El microservicio fue construido con springframework.boot version '2.7.9', gradle
 	
 La API expone un metodo *POST* en la ruta *localhost:8080/mutant/* 
 se debe enviar en el body un json que correspende a una clase que contiene un atributo  String[] dna; con lo muestra el siguiente ejemplo
-		{
-			"dna": ["ATGCGA","CAGTGC","TTATGT","AGAAGG","CCCCTA","TCACTT"]
-		}
+	{
+		"dna": ["ATGCGA","CAGTGC","TTATGT","AGAAGG","CCCCTA","TCACTT"]
+	}
 
 
 **2.Response:**
