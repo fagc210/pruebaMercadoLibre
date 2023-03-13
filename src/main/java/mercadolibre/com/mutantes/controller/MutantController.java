@@ -18,12 +18,18 @@ public class MutantController {
     @PostMapping("/mutant")
     public ResponseEntity<DataResponse> DnaValidate(@RequestBody Dna dna){
 
-        boolean isMutant = dnaValidateUseCase.isMutant(dna.getDna());
-        if(isMutant){
-            return new ResponseEntity<DataResponse>(HttpStatus.OK);
+        if(dnaValidateUseCase.validateInputData(dna.getDna())){
+            boolean isMutant = dnaValidateUseCase.isMutant(dna.getDna());
+            if(isMutant){
+                return new ResponseEntity<DataResponse>(HttpStatus.OK);
+            }else{
+                return new ResponseEntity<DataResponse>(HttpStatus.FORBIDDEN);
+            }
         }else{
             return new ResponseEntity<DataResponse>(HttpStatus.FORBIDDEN);
         }
+
+
 
     }
 }
