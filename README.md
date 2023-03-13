@@ -22,7 +22,9 @@ Procedimiento para desplegar en microservicion local
 
 
 2.Response
+
 		si validar el request el String[] dna, cumple con la caracteristcas para se un mutante se respondera un codigo Htpps 200 OK
+		
 		si validar el request el String[] dna, *NO* cumple con la caracteristcas para se un mutante se respondera un codigo Htpps 403 Forbidden
 		
 En este repositorio encontarás  una colección de postman con el nombre mercadoLibreCollection que te permitirá realizar peticiones a la ruta de local	
