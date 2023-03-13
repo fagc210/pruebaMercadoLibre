@@ -7,12 +7,12 @@ el string[] representa una matriz de nxn
 condicion a evaluar : Sabrás si un humano es mutante, si encuentras más de una secuencia de cuatro letras
 iguales, de forma oblicua, horizontal o vertical.
 
-##Procedimiento para desplegar en microservicion local
+## Procedimiento para desplegar en microservicion local
 
-###configuración:
+### configuración:
 El microservicio fue construido con springframework.boot version '2.7.9', gradle y Java 11 	y puede ser desplegado en cualquier id de desarrollo
 
-##Peticiones
+## Peticiones
 
 **1.Request:**
 	
@@ -29,7 +29,7 @@ si validar el request el String[] dna, cumple con la caracteristcas para se un m
 		
 si validar el request el String[] dna, **NO** cumple con la caracteristcas para se un mutante se respondera un codigo **Htpp 403 Forbidden**
 
-##Postman		
+## Postman		
 En este repositorio encontarás  una colección de postman con el nombre mercadoLibreCollection que te permitirá realizar peticiones a la ruta de local	
 
 	
